@@ -27,10 +27,10 @@ process.stdin.on('readable', function() {
 				break;
 
 			case '/getOSinfo':
-    			OSinfo.print();
-    			break;
+				OSinfo.print();
+				break;
 
-    		default:
+			default:
 				process.stderr.write('Wrong instruction!');
 				break;
 		}
