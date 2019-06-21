@@ -1,3 +1,4 @@
+'use strict';
 
 process.stdin.setEncoding('utf-8');
 var OSinfo = require('../modules/OSinfo');
