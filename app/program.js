@@ -23,10 +23,10 @@ process.stdin.on('readable', function() {
 				break;
 
 			case '/sayhello':
-    			process.stdout.write('hello!\n');
-    			break;
+				process.stdout.write('hello!\n');
+				break;
 
-    		case '/getOSinfo':
+			case '/getOSinfo':
     			OSinfo.print();
     			break;
 
