@@ -19,7 +19,8 @@
     "watch:sassprefixer": "onchange sass/*.scss -- npm-run-all -p sassprefixer:*",
     "watch:browsersync": "browser-sync start --server --files css/*.css *.html",
     "sassprefixer:sass": "node-sass --output-style expanded --source-map true -o css sass",
-    "sassprefixer:autoprefixer": "autoprefixer-cli -o css/style.css"
+    "sassprefixer:autoprefixer": "autoprefixer-cli -o css/style.css",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -41,5 +42,8 @@
     "nu-html-checker": "^0.1.0",
     "onchange": "^5.2.0",
     "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "colors": "^1.3.3"
   }
 }
